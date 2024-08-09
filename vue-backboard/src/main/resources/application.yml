@@ -1,0 +1,16 @@
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+  jpa:
+    hibernate:
+      dialect: MariaDB106Dialect
+    show-sql: true
+    generate-ddl: true
+    defer-datasource-initialization: true
+
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/test
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: maria

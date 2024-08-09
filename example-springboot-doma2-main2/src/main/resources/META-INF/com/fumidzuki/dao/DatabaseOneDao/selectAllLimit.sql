@@ -1,0 +1,1 @@
+select * from test.board order by idx desc

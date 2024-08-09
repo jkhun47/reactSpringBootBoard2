@@ -1,0 +1,9 @@
+#database.two.jdbc-url=jdbc:h2:~/two
+database.two.jdbc-url=jdbc:mariadb://localhost:3306/test
+database.two.username=root
+database.two.password=maria
+database.two.readOnly=false
+database.two.autoCommit=false
+database.two.maximumPoolSize=2
+database.two.minimumIdle=2
+database.two.poolName=two

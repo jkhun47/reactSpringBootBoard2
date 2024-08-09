@@ -1,0 +1,11 @@
+# https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
+
+# database.one
+database.one.jdbcUrl=jdbc:mariadb://localhost:3306/test
+database.one.username=root
+database.one.password=maria
+
+#database.two
+database.two.jdbcUrl=jdbc:mariadb://localhost:3306/test
+database.two.username=root
+database.two.password=maria

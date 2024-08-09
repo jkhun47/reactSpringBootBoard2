@@ -1,0 +1,46 @@
+
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+  datasource:
+    one:
+      driver-class-name: org.mariadb.jdbc.Driver
+      jdbcUrl: jdbc:mariadb://127.0.0.1:3306/test
+      username: root
+      password: maria
+
+#    two:
+#      driver-class-name: org.mariadb.jdbc.Driver
+#      jdbcUrl: jdbc:mariadb://127.0.0.1:3306/test
+#      username: root
+#      password: maria
+
+#  #  sql:
+#  #    init:
+#  #      mode: always
+#  #      encoding: utf-8
+#  datasource:
+#    #    url : jdbc:mysql://127.0.0.1:3306/mysql
+#    #    url : jdbc:mariadb://127.0.0.1:3306/mysql
+#    jdbcUrl : jdbc:mariadb://127.0.0.1:3306/test
+#    #      url : jdbc:mariadb://127.0.0.1:3306/mysql?characterEncoding=utf-8
+#    #    driver-class-name: com.mysql.cj.jdbc.Driver
+#    driver-class-name: org.mariadb.jdbc.Driver
+#    username: root
+#    password: maria
+#    # 밀리세컨 단위 해당 시간동안 커넥션을 반납하지 않으면 로그를 남김
+##    hikari:
+##      leak-detection-threshold: 300000
+
+#  datasource:
+#      one:
+#        driver-class-name: org.mariadb.jdbc.Driver
+#        jdbcUrl: jdbc:mariadb://127.0.0.1:3306/test
+#        username: root
+#        password: maria
+#      two:
+#        driver-class-name: org.mariadb.jdbc.Driver
+#        jdbcUrl: jdbc:mariadb://127.0.0.1:3306/test
+#        username: root
+#        password: maria
